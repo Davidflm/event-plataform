@@ -5,7 +5,11 @@ module.exports = {
     './src/**/*.tsx'
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        blur: 'url(/src/assets/blur-background.png)'
+      }
+    },
   },
   plugins: [],
 }
